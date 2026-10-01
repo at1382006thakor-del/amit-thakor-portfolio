@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="450" fill="url(#bg)"/>
+  
+  <!-- Grid background lines -->
+  <g stroke="#ffffff" stroke-opacity="0.05" stroke-width="1">
+    <line x1="50" y1="50" x2="750" y2="50"/>
+    <line x1="50" y1="150" x2="750" y2="150"/>
+    <line x1="50" y1="250" x2="750" y2="250"/>
+    <line x1="50" y1="350" x2="750" y2="350"/>
+  </g>
+  
+  <!-- Glowing header dashboard card -->
+  <rect x="80" y="40" width="640" height="370" rx="16" fill="#1e293b" fill-opacity="0.6" stroke="url(#accent)" stroke-width="1.5"/>
+  <rect x="100" y="60" width="600" height="40" rx="8" fill="#0f172a" fill-opacity="0.8"/>
+  <circle cx="125" cy="80" r="6" fill="#ef4444"/>
+  <circle cx="145" cy="80" r="6" fill="#f59e0b"/>
+  <circle cx="165" cy="80" r="6" fill="#10b981"/>
+  <text x="400" y="85" font-family="sans-serif" font-size="14" font-weight="bold" fill="#94a3b8" text-anchor="middle">InsightAI — AI Sales Analytics Platform</text>
+  
+  <!-- KPI cards -->
+  <rect x="100" y="115" width="180" height="70" rx="8" fill="#0f172a" fill-opacity="0.7" stroke="#334155"/>
+  <text x="115" y="140" font-family="sans-serif" font-size="12" fill="#64748b">Quarterly Sales</text>
+  <text x="115" y="168" font-family="sans-serif" font-size="20" font-weight="bold" fill="#38bdf8">$428,500</text>
+  <text x="210" y="168" font-family="sans-serif" font-size="12" font-weight="bold" fill="#4ade80">+18.4%</text>
+
+  <rect x="310" y="115" width="180" height="70" rx="8" fill="#0f172a" fill-opacity="0.7" stroke="#334155"/>
+  <text x="325" y="140" font-family="sans-serif" font-size="12" fill="#64748b">AI Predictive Confidence</text>
+  <text x="325" y="168" font-family="sans-serif" font-size="20" font-weight="bold" fill="#a78bfa">94.8%</text>
+
+  <rect x="520" y="115" width="180" height="70" rx="8" fill="#0f172a" fill-opacity="0.7" stroke="#334155"/>
+  <text x="535" y="140" font-family="sans-serif" font-size="12" fill="#64748b">Growth Forecast</text>
+  <text x="535" y="168" font-family="sans-serif" font-size="20" font-weight="bold" fill="#f472b6">+$82.4K</text>
+
+  <!-- Charts section -->
+  <rect x="100" y="200" width="390" height="190" rx="8" fill="#0f172a" fill-opacity="0.7" stroke="#334155"/>
+  <!-- Bar chart visual -->
+  <rect x="130" y="290" width="30" height="80" rx="4" fill="url(#barGrad)"/>
+  <rect x="180" y="260" width="30" height="110" rx="4" fill="url(#barGrad)"/>
+  <rect x="230" y="230" width="30" height="140" rx="4" fill="url(#barGrad)"/>
+  <rect x="280" y="250" width="30" height="120" rx="4" fill="url(#barGrad)"/>
+  <rect x="330" y="210" width="30" height="160" rx="4" fill="url(#barGrad)"/>
+  <rect x="380" y="240" width="30" height="130" rx="4" fill="url(#barGrad)"/>
+  <rect x="430" y="195" width="30" height="175" rx="4" fill="url(#accent)"/>
+
+  <!-- AI chat window side card -->
+  <rect x="505" y="200" width="195" height="190" rx="8" fill="#0f172a" fill-opacity="0.8" stroke="#3b82f6" stroke-opacity="0.4"/>
+  <text x="520" y="225" font-family="sans-serif" font-size="12" font-weight="bold" fill="#38bdf8">🤖 Gemini AI Insights</text>
+  <rect x="515" y="235" width="175" height="40" rx="6" fill="#1e293b"/>
+  <text x="523" y="252" font-family="sans-serif" font-size="10" fill="#cbd5e1">Q: Predict Q4 growth</text>
+  <text x="523" y="266" font-family="sans-serif" font-size="9" fill="#94a3b8">A: Projected revenue: $510k</text>
+
+  <rect x="515" y="285" width="175" height="40" rx="6" fill="#1e293b"/>
+  <text x="523" y="302" font-family="sans-serif" font-size="10" fill="#cbd5e1">Top category: Enterprise</text>
+  <text x="523" y="316" font-family="sans-serif" font-size="9" fill="#94a3b8">XGBoost model fit: 0.94</text>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="auraBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#022c22"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="50%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#auraBg)"/>
+
+  <!-- Outer Platform Window -->
+  <rect x="60" y="40" width="680" height="370" rx="16" fill="#064e3b" fill-opacity="0.2" stroke="url(#emeraldGrad)" stroke-width="1.5"/>
+  <rect x="80" y="60" width="640" height="40" rx="8" fill="#0f172a" fill-opacity="0.9"/>
+  <circle cx="105" cy="80" r="6" fill="#ef4444"/>
+  <circle cx="125" cy="80" r="6" fill="#f59e0b"/>
+  <circle cx="145" cy="80" r="6" fill="#10b981"/>
+  <text x="400" y="85" font-family="sans-serif" font-size="14" font-weight="bold" fill="#6ee7b7" text-anchor="middle">AURA — AI Investor Self-Service Hub</text>
+
+  <!-- Left Sidebar Features -->
+  <rect x="80" y="115" width="200" height="275" rx="10" fill="#0f172a" fill-opacity="0.8" stroke="#134e4a"/>
+  <text x="100" y="145" font-family="sans-serif" font-size="12" font-weight="bold" fill="#94a3b8">SERVICES</text>
+  
+  <rect x="95" y="160" width="170" height="36" rx="6" fill="#047857" fill-opacity="0.4"/>
+  <text x="110" y="182" font-family="sans-serif" font-size="11" fill="#a7f3d0">📈 Mutual Fund Dashboard</text>
+
+  <rect x="95" y="205" width="170" height="36" rx="6" fill="#1e293b"/>
+  <text x="110" y="227" font-family="sans-serif" font-size="11" fill="#cbd5e1">📋 KYC Compliance Checklist</text>
+
+  <rect x="95" y="250" width="170" height="36" rx="6" fill="#1e293b"/>
+  <text x="110" y="272" font-family="sans-serif" font-size="11" fill="#cbd5e1">🔄 SIP Management Wizard</text>
+
+  <rect x="95" y="295" width="170" height="36" rx="6" fill="#1e293b"/>
+  <text x="110" y="317" font-family="sans-serif" font-size="11" fill="#cbd5e1">📄 Account Statement Export</text>
+
+  <!-- Right Main Investor Dashboard -->
+  <rect x="295" y="115" width="425" height="275" rx="10" fill="#0f172a" fill-opacity="0.8" stroke="#134e4a"/>
+  
+  <!-- Portfolio Summary -->
+  <rect x="315" y="130" width="385" height="70" rx="8" fill="#134e4a" fill-opacity="0.3" stroke="#059669"/>
+  <text x="330" y="152" font-family="sans-serif" font-size="12" fill="#a7f3d0">Total Investment Value</text>
+  <text x="330" y="182" font-family="sans-serif" font-size="22" font-weight="bold" fill="#ffffff">₹ 1,245,800.00</text>
+  <text x="560" y="182" font-family="sans-serif" font-size="14" font-weight="bold" fill="#34d399">+14.2% Return</text>
+
+  <!-- AI Conversational Assistant Bubble -->
+  <rect x="315" y="215" width="385" height="160" rx="8" fill="#022c22" stroke="#10b981" stroke-opacity="0.5"/>
+  <text x="330" y="238" font-family="sans-serif" font-size="12" font-weight="bold" fill="#34d399">💬 AURA AI Assistant</text>
+  
+  <!-- User chat -->
+  <rect x="420" y="250" width="265" height="30" rx="12" fill="#047857"/>
+  <text x="432" y="269" font-family="sans-serif" font-size="10" fill="#ffffff">How do I change my SIP nominee details?</text>
+
+  <!-- Bot response -->
+  <rect x="330" y="290" width="280" height="45" rx="12" fill="#1e293b"/>
+  <text x="342" y="308" font-family="sans-serif" font-size="10" fill="#a7f3d0">AURA AI: Select Nominee Wizard from sidebar.</text>
+  <text x="342" y="323" font-family="sans-serif" font-size="10" fill="#94a3b8">e-KYC authentication will verify instantly.</text>
+</svg>
